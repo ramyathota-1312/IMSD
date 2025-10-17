@@ -1,0 +1,52 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTf-8">
+     <title>Thumbnail Image Gallery</title>
+     <style>
+           body {
+                 font-family: Arial, sans-serif;
+                 text-align: center;
+                 }
+           gallery{
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: center;
+                  gap: 15px;
+                  margin-top: 20px;
+                  }
+           .gallery a img {
+                  width: 100px;
+                  height: 100px;
+                  object-fit: cover;
+                  border: 2px solid #ccc;
+                  border-radius: 8px;
+                  transition: transform 0.3s;
+                  }
+            .gallery a img:hover {
+                   transform: scale(1.1);
+                   border-color: #666;
+                  }
+
+       </style>
+</head>
+<body>
+<h1>My Image gallery</h1>
+<p>Click on a thumbnail to view the full-sized image</p>
+<div class="gallery">
+<a href="C:\Users\maha laxmi\Downloads\WhatsApp Image 2025-09-17 at 1.19.08 PM.jpeg" target="_blank">
+<img src="C:\Users\maha laxmi\Downloads\WhatsApp Image 2025-09-17 at 1.19.08 PM.jpeg" alt="Image 1">
+</a>
+<a href="C:\Users\maha laxmi\OneDrive\Pictures\Screenshots\Screenshot_20230301_182929.png" target="_blank">
+<img src="C:\Users\maha laxmi\OneDrive\Pictures\Screenshots\Screenshot 2025-05-08 140845.png" alt="Image 2">
+</a>
+<a href="C:\Users\maha laxmi\Downloads\WhatsApp Image 2025-09-17 at 1.19.08 PM.jpeg" target="_blank">
+<img src="C:\Users\maha laxmi\Downloads\WhatsApp Image 2025-09-17 at 1.19.08 PM.jpeg" alt="Image 3">
+</a>
+<a href="C:\Users\maha laxmi\OneDrive\Pictures\Screenshots\Screenshot 2025-05-08 140845.png" target="_blank">
+<img src="C:\Users\maha laxmi\OneDrive\Pictures\Screenshots\Screenshot 2025-05-08 140845.png" alt="Image 4">
+</a>
+</div>
+</body>
+</html>
+
